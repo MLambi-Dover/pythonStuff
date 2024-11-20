@@ -47,11 +47,12 @@ currentNumber = 2
 while primeCount < 101:    # Hard coded to test for 100; could be replaced with user input.
     if isPrime(currentNumber):
         if isPrime(reverseInt(currentNumber)):
-            print(f"{currentNumber:5d}", end=' ')
-            primeCount += 1
-            lineCount += 1
-            if lineCount == 10:
-                print('')
-                lineCount = 0
+            if not isPalindrome(currentNumber):
+                print(f"{currentNumber:5d}", end=' ')
+                primeCount += 1
+                lineCount += 1
+                if lineCount == 10:
+                    print('')
+                    lineCount = 0
     currentNumber += 1
-    print("Done")
+print("Done")
