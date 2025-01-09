@@ -1,5 +1,5 @@
 ############################################################
-#     Name : Gordon Reynolds                Date: 3/23/21  #
+#     Name : Student Name                   Date: 3/23/21  #
 #     Unit 8 Problems                                      #
 #     Sample Circle Class                                  #
 ############################################################
